@@ -1,9 +1,10 @@
 import Footer from "../shared/Footer";
+import Navbar from "../shared/Navbar";
 
 const Home = () => {
     return (
         <div>
-            <p>I am from home</p>
+            <Navbar></Navbar>
 
             <Footer></Footer>
 
