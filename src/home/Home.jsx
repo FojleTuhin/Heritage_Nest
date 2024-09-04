@@ -1,13 +1,16 @@
-import Footer from "../shared/Footer";
-import Navbar from "../shared/Navbar";
+import Property from "../components/Property";
+import Services from "../components/Services";
+import Hero_Banner from "./Hero_Banner";
 
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
+            
+            <Hero_Banner></Hero_Banner>
+            <Property></Property>
+            <Services></Services>
 
-            <Footer></Footer>
-
+            
         </div>
     );
 };
