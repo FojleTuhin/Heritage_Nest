@@ -11,10 +11,12 @@ import { MdBalcony, MdForklift, MdLocalLaundryService, MdOutlineBathtub, MdOutli
 import { PiParkDuotone, PiTelevisionBold } from "react-icons/pi";
 import { RiBattery2ChargeLine } from "react-icons/ri";
 import { TbBedOff, TbParkingOff } from "react-icons/tb";
+import Services from "../components/Services";
+import Card from "../components/Card";
 
 const PropertyDetails = () => {
     return (
-        <div className="max-w-7xl mx-auto px-8 mt-10">
+        <div className="max-w-7xl mx-auto  mt-10">
             <div className="w-[800px] h-[72px] flex gap-8 border border-t-0 border-l-0 border-r-0 pb-4 border-[#E3E3E3] ">
                 <div className="w-[540px] flex flex-col gap-2">
                     <p className="text-[#010101] font-semibold text-xl">3 BHK Builder Floor for Sale in Site Ram Bazar Hyderabad</p>
@@ -282,47 +284,61 @@ const PropertyDetails = () => {
                 {/* row 5 done  */}
                 <div className="flex  gap-6">
                     <div className="w-[265px] h-[72px] p-4 flex gap-2 items-center">
-                        <FaWifi  className="text-[24px]" />
+                        <FaWifi className="text-[24px]" />
                         <p className="text-[#101010] font-medium ">Internet/Wi-Fi Connectivity</p>
                     </div>
                     <div className="w-[256px] h-[72px] p-4 flex gap-2 items-center">
-                        <PiTelevisionBold  className="text-[24px]" />
+                        <PiTelevisionBold className="text-[24px]" />
                         <p className="text-[#101010] font-medium ">DTH Television Facility</p>
                     </div>
                     <div className="w-[245px] h-[72px] p-4 flex gap-2 items-center">
-                        <GiGasPump  className="text-[24px]" />
+                        <GiGasPump className="text-[24px]" />
                         <p className="text-[#101010] font-medium ">Piped Gas</p>
                     </div>
                     <div className="w-[265px] h-[72px] p-4 flex gap-2 items-center">
-                        <GiRunningShoe  className="text-[24px]" />
+                        <GiRunningShoe className="text-[24px]" />
                         <p className="text-[#101010] font-medium ">Jogging and Strolling Track</p>
                     </div>
 
                 </div>
 
 
-                  {/* row 6 do  */}
-                  <div className="flex  gap-6">
+                {/* row 6 do  */}
+                <div className="flex  gap-6">
                     <div className="w-[265px] h-[72px] p-4 flex gap-2 items-center">
-                        <MdSportsTennis   className="text-[24px]" />
+                        <MdSportsTennis className="text-[24px]" />
                         <p className="text-[#101010] font-medium ">Outdoor Tennis Courts</p>
                     </div>
                     <div className="w-[256px] h-[72px] p-4 flex gap-2 items-center">
-                        <LuGraduationCap   className="text-[24px]" />
+                        <LuGraduationCap className="text-[24px]" />
                         <p className="text-[#101010] font-medium ">Early Learning Centre</p>
                     </div>
                     <div className="w-[245px] h-[72px] p-4 flex gap-2 items-center">
-                        <GiKidSlide   className="text-[24px]" />
+                        <GiKidSlide className="text-[24px]" />
                         <p className="text-[#101010] font-medium ">Kids Play Area</p>
                     </div>
                     <div className="w-[265px] h-[72px] p-4 flex gap-2 items-center">
-                        <BsFlower1   className="text-[24px]" />
+                        <BsFlower1 className="text-[24px]" />
                         <p className="text-[#101010] font-medium "></p>
                     </div>
 
                 </div>
 
             </div>
+
+
+
+
+
+            <Services></Services>
+            <div className="mt-10 rounded-lg border border-t-0 border-l-0 border-r-0 flex flex-col gap-6 border-[#E3E3E3] pb-8">
+                <p className="font-semibold text-[18px] text-[#0059B1] link text-right">See all propeety</p>
+
+
+                <Card></Card>
+            </div>
+
+
         </div>
     );
 };

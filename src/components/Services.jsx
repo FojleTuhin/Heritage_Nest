@@ -2,7 +2,7 @@ import { RiHomeSmile2Line } from "react-icons/ri";
 
 const Services = () => {
     return (
-        <div className="max-w-7xl mx-auto px-8">
+        <div className="max-w-7xl mx-auto ">
             <div className="mt-20">
                 <p className="font-bold text-[40px] text-[#181818] text-center">Other Services</p>
 
