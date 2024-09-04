@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
@@ -14,7 +15,7 @@ const Navbar = () => {
                     <p className="link link-hover">Services</p>
                 </div>
                 <div>
-                    <img className="h-[80px] w-[55px] rounded-lg object-cover" src="https://i.ibb.co/YbMd8tG/Screenshot-2024-09-03-184139.png" alt="" />
+                    <Link to='/'> <img className="h-[80px] w-[55px] rounded-lg object-cover" src="https://i.ibb.co/YbMd8tG/Screenshot-2024-09-03-184139.png" alt="" /></Link>
                 </div>
                 <div className="flex gap-8">
                     <p className="hidden md:block link link-hover">Manage Rentals</p>

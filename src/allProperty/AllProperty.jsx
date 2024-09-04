@@ -1,6 +1,7 @@
 import { FaLocationDot } from "react-icons/fa6";
 import { IoScanCircleSharp } from "react-icons/io5";
 import { PiRectangleDashedLight } from "react-icons/pi";
+import Testimonial from "../components/Testimonial";
 
 const AllProperty = () => {
     return (
@@ -382,18 +383,74 @@ const AllProperty = () => {
                     </div>
 
                 </div>
-                
+
 
             </div>
 
 
+            {/* pagination */}
             <div className="flex gap-2 mt-6">
                 <p className="bg-[#0059B1] px-[10px] py-2 rounded text-[#ECF5FF] text-[18px]">01</p>
                 <p className="bg-[#ECF5FF] px-[10px] py-2 rounded text-[#4B5563] text-[18px]">02</p>
                 <p className="bg-[#ECF5FF] px-4 py-2 rounded text-[#4B5563] text-[18px]">Next</p>
-                
+
 
             </div>
+
+
+
+
+
+            <div className="w-[1008px] h-[148px] rounded-lg p-8 flex gap-8 bg-[#ECF5FF] mt-20">
+
+
+                <div className="w-[286px]">
+                    <p className="font-semibold text-[28px] text-[#010101]">Need a Home Loan?</p>
+                    <p className="text-[#535353]">Select How much Home loan you can take</p>
+                </div>
+                <div className="flex-1 flex flex-col  justify-center">
+
+                    <div>
+                        <div className="flex ">
+                            <p className="bg-[#0051A1] h-[19px] w-[18px] rounded-full z-20" ></p>
+                            <div className="relative">
+                                <div className="flex h-[13px] w-[620px] bg-[#8AB3DB] -ml-1 rounded-tr-[10px] rounded-br-[10px] mt-[2px]">
+
+                                </div>
+
+                                <div className="flex -mt-5">
+                                    <p></p>
+                                    <p className="ml-[160px] text-[#ECF5FF]">|</p>
+                                    <p className="ml-[140px] text-[#ECF5FF]">|</p>
+                                    <p className="ml-[140px] text-[#ECF5FF]">|</p>
+                                    <p className="ml-[140px] text-[#ECF5FF]">|</p>
+                                </div>
+
+
+                                <div className="flex justify-between mt-3">
+                                    <p>$20K</p>
+                                    <p>$30K</p>
+                                    <p>$40K</p>
+                                    <p>$50K</p>
+                                    <p>$60K</p>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <Testimonial></Testimonial>
+
+
+
 
 
         </div>
