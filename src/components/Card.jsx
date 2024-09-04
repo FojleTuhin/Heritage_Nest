@@ -9,7 +9,7 @@ const Card = () => {
 
                 {/* 1st */}
                 <Link to='/propertyDetails'>
-                    <div className="w-[385px] h-[388px] bg-[#F9FAFB]">
+                    <div className="w-[325px] md:w-[385px] h-[388px] bg-[#F9FAFB]">
                         <div className="h-[200px] w-full relative">
                             <img className="h-[200px] bg-contain w-full" src="https://i.ibb.co/Lh10ngF/kara-eads-L7-Ew-Hkq1-B2s-unsplash.jpg" alt="" />
 
@@ -48,7 +48,7 @@ const Card = () => {
 
                 {/* 2nd */}
                 <Link to='/propertyDetails'>
-                    <div className="w-[385px] h-[388px] bg-[#F9FAFB]">
+                    <div className="w-[325px] md:w-[385px] h-[388px] bg-[#F9FAFB] hidden md:block">
                         <div className="h-[200px] w-full relative">
                             <img className="h-[200px] bg-contain w-full" src="https://i.ibb.co/2MTCL5n/cody-weiss-h-EMYw-IE6-GEY-unsplash.jpg" alt="" />
 
@@ -88,7 +88,7 @@ const Card = () => {
 
                 {/* 3rd */}
                 <Link to='/propertyDetails'>
-                    <div className="w-[385px] h-[388px] bg-[#F9FAFB]">
+                    <div className="w-[385px] h-[388px] bg-[#F9FAFB] hidden md:block">
                         <div className="h-[200px] w-full relative">
                             <img className="h-[200px] bg-contain w-full" src="https://i.ibb.co/3yTbZCV/pexels-houzlook-3797991.jpg" alt="" />
 

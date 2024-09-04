@@ -5,14 +5,14 @@ import Hero_Banner from "./Hero_Banner";
 const Home = () => {
     return (
         <div>
-            
+
             <Hero_Banner></Hero_Banner>
             <Property></Property>
             <div className="px-8">
-            <Services></Services>
+                <Services></Services>
             </div>
 
-            
+
         </div>
     );
 };

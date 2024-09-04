@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Staticks = () => {
     return (
-        <div className="max-w-7xl px-8 mx-auto flex gap-6 flex-wrap justify-between">
+        <div className="max-w-7xl px-8 mx-auto flex gap-6 flex-wrap justify-center lg:justify-between mt-60 lg:mt-0">
             <div className="bg-[#FDF0E7] p-6 flex flex-col justify-between gap-8 h-[185px] w-[280px]">
                 <div>
                     <h3 className="text-[40px] font-bold text-[#D95D0F]">2k+</h3>

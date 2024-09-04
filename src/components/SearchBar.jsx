@@ -9,8 +9,8 @@ const SearchBar = () => {
             <div className="h-[309px]">
                 <img src="https://i.ibb.co/6YjYCVs/City-Lights.png" className="bg-cover h-[309px] w-full" alt="" />
             </div>
-            <div className="absolute top-20 left-[12%]  bg-[#FFFFFF] rounded-lg drop-shadow">
-                <div className="w-[984px] h-[376px] mx-auto  p-8 gap-8 flex flex-col">
+            <div className="absolute top-20 left-[5%] lg:left-[12%]  bg-[#FFFFFF] rounded-lg drop-shadow">
+                <div className="w-[340px] lg:w-[984px] lg:h-[376px] h-[460px] mx-auto  p-8 gap-8 flex flex-col">
                     <div>
                         <div className="flex gap-5 font-medium text-[#4B5563]">
                             <p className="text-[#0059B1] ">Buy</p>
@@ -30,7 +30,7 @@ const SearchBar = () => {
                         <input type="text" className="border border-[#E5E7EB] w-full rounded py-3 px-12 placeholder:text-[#6B7280]" placeholder="Search Property" />
                     </div>
 
-                    <div className="flex gap-8">
+                    <div className="lg:flex gap-8">
                         <div>
                             <div className="flex items-center gap-4">
                                 <FaLocationDot className="text-[#EE6611] h-5 w-4" />
