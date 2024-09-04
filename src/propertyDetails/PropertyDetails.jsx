@@ -1,4 +1,8 @@
-import { FaLocationDot } from "react-icons/fa6";
+import { FaBed, FaLocationDot } from "react-icons/fa6";
+import { GiFurnace } from "react-icons/gi";
+import { IoBedOutline } from "react-icons/io5";
+import { LuBed } from "react-icons/lu";
+import { MdBalcony, MdOutlineBathtub } from "react-icons/md";
 
 const PropertyDetails = () => {
     return (
@@ -39,6 +43,82 @@ const PropertyDetails = () => {
                             <div className="absolute inset-0 bg-gradient-to-t from-[#000000A3] to-transparent"></div>
                         </div>
 
+                    </div>
+
+
+                    <div className="mt-8 bg-[#F9FAFB] h-[356px] rounded-lg p-6 flex flex-col gap-8">
+                        <p className="font-semibold text-[24px] text-[#000000]">Overview</p>
+
+                        <div className="bg-[#FFFFFF] h-[56px] flex gap-8 border border-[#CAC7C7] border-t-0 border-r-0 border-l-0">
+                            <div className="p-4 gap-2 flex items-center">
+                                <IoBedOutline className="h-5 w-5 " />
+                                <p className="text-[#303030]"><span className="font-bold">2</span> Beds</p>
+
+                            </div>
+                            <div className="p-4 gap-2 flex items-center">
+                                <MdOutlineBathtub className="h-5 w-5 " />
+                                <p className="text-[#303030]"><span className="font-bold">2</span> Bath</p>
+
+                            </div>
+                            <div className="p-4 gap-2 flex items-center">
+                                <MdBalcony className="h-5 w-5 " />
+                                <p className="text-[#303030]"><span className="font-bold">2</span> Balcony</p>
+
+                            </div>
+                            <div className="p-4 gap-2 flex items-center">
+                                <GiFurnace className="h-5 w-5 " />
+                                <p className="text-[#303030]">Fully Furnished</p>
+
+                            </div>
+
+                        </div>
+
+                        <div className=" flex flex-col gap-6">
+                            <div className="flex gap-8 justify-between">
+                                <div className="flex flex-col gap-1">
+                                    <p className="text-[#5C5C5C]">Carpet Area</p>
+                                    <p className="text-[#101010] font-medium">2000 sqft</p>
+                                    <p className="text-[#535353] text-[14px]">$ 225/sqft</p>
+                                </div>
+
+                                <div className="flex flex-col gap-1">
+                                    <p className="text-[#5C5C5C]">Floor</p>
+                                    <p className="text-[#101010] font-medium">Second (Out of 6th floor)</p>
+
+                                </div>
+                                <div className="flex flex-col gap-1">
+                                    <p className="text-[#5C5C5C]">Transaction Type</p>
+                                    <p className="text-[#101010] font-medium">Ready to move</p>
+
+                                </div>
+                                <div className="flex flex-col gap-1">
+                                    <p className="text-[#5C5C5C]">Lift</p>
+                                    <p className="text-[#101010] font-medium">1</p>
+
+                                </div>
+
+
+                            </div>
+                            <div className="flex gap-8 ">
+                                <div className="flex flex-col gap-1">
+                                    <p className="text-[#5C5C5C]">Facing</p>
+                                    <p className="text-[#101010] font-medium">North - East</p>
+
+                                </div>
+                                <div className="flex flex-col gap-1 ml-20">
+                                    <p className="text-[#5C5C5C]">Additional Rooms</p>
+                                    <p className="text-[#101010] font-medium">1 servant room & 1 gust room</p>
+
+                                </div>
+                                <div className="flex flex-col gap-1 ml-12">
+                                    <p className="text-[#5C5C5C]">Age of construction</p>
+                                    <p className="text-[#101010] font-medium">Age of construction</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
                     </div>
                 </div>
                 <div className="bg-[#ECF5FF]  flex-1 mt-10 h-[504px]">
