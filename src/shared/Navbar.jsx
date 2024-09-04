@@ -6,7 +6,7 @@ const Navbar = () => {
 
 
     return (
-        <div className="bg-[#ECF5FF]">
+        <div className="bg-[#ECF5FF] drop-shadow-xl">
             <div className="max-w-7xl mx-auto flex justify-between text-[18px] px-8 items-center py-2">
                 <div className="md:flex gap-8  hidden">
                     <p className="link link-hover">Buy</p>
