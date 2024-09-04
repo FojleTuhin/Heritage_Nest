@@ -1,8 +1,17 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Doc+
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+## 🔗 Link
+[![Website](https://img.shields.io/badge/website-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://heritage-nest-rho.vercel.app/)
+
+
+"Clicking on 'Find Property' in the hero banner will redirect the user to the buyer's screen. Selecting 'View All' under the statistics section will take them to the 'All Property' page. Clicking on a card will lead to the card's detailed view. Additionally, clicking on 'About Us' in the footer will navigate the user to the About Us section."
+
+
+
+
+
+ 
