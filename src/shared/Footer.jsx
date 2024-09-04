@@ -1,6 +1,7 @@
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { IoLogoTwitter } from "react-icons/io";
 import { PiHandPeace } from "react-icons/pi";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -27,7 +28,7 @@ const Footer = () => {
                         </nav>
                         <nav className="font-semibold text-[#475467]">
                             <h6 className="text-[14px] text-[#667085]">Company</h6>
-                            <a className="link link-hover">About us</a>
+                            <Link to='/aboutUs'><a className="link link-hover">About us</a></Link>
                             <a className="link link-hover">Contact</a>
                             <a className="link link-hover">Press</a>
                             <a className="link link-hover">News</a>

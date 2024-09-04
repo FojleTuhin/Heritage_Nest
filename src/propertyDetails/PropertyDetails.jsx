@@ -16,7 +16,7 @@ import Card from "../components/Card";
 
 const PropertyDetails = () => {
     return (
-        <div className="max-w-7xl mx-auto  mt-10">
+        <div className="max-w-7xl mx-auto px-8 mt-10">
             <div className="w-[800px] h-[72px] flex gap-8 border border-t-0 border-l-0 border-r-0 pb-4 border-[#E3E3E3] ">
                 <div className="w-[540px] flex flex-col gap-2">
                     <p className="text-[#010101] font-semibold text-xl">3 BHK Builder Floor for Sale in Site Ram Bazar Hyderabad</p>
@@ -182,7 +182,7 @@ const PropertyDetails = () => {
                     </div>
 
                     <div className="relative mt-8">
-                        <img className="rounded-lg h-[422px] w-[396px]" src="https://i.ibb.co/Cz2x5MG/Screenshot-2024-09-04-204835.png" alt="" />
+                        <img className="rounded-lg h-[422px] w-full" src="https://i.ibb.co/Cz2x5MG/Screenshot-2024-09-04-204835.png" alt="" />
                         <div className="absolute top-0 left-0 w-full h-full rounded-lg" style={{ background: 'linear-gradient(#00000033, #00000033)' }}></div>
                     </div>
 
