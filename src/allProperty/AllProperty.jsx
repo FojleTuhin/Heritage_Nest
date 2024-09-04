@@ -2,6 +2,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { IoScanCircleSharp } from "react-icons/io5";
 import { PiRectangleDashedLight } from "react-icons/pi";
 import Testimonial from "../components/Testimonial";
+import { Link } from "react-router-dom";
 
 const AllProperty = () => {
     return (
@@ -22,6 +23,7 @@ const AllProperty = () => {
             <div className="flex flex-col gap-6 w-[800px] mt-10 pb-6 border bordeer-b-[1px] border-[#959595] border-t-0 border-l-0 border-r-0">
 
                 {/* 1st */}
+               
                 <div className="h-[232px] rounded-lg p-6 flex gap-8 bg-[#F9FAFB]">
                     <div className="w-[152px] h-[184px]">
                         <img className="w-[152px] h-[184px] rounded" src="https://i.ibb.co/YQGnQ6s/pexels-hikaique-65438.jpg" alt="" />
@@ -92,6 +94,8 @@ const AllProperty = () => {
                     </div>
 
                 </div>
+                
+              
 
                 {/* 2nd */}
                 <div className="h-[232px] rounded-lg p-6 flex gap-8 bg-[#F9FAFB]">

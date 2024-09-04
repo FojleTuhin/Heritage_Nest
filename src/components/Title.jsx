@@ -1,4 +1,5 @@
 import { IoMdSearch } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Title = () => {
     return (
@@ -14,7 +15,9 @@ const Title = () => {
                 <p className="text-[#667085] mt-8 custom-filter-shadow">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
 
 
-                <p ><span className="flex items-center gap-3 bg-[#ECF5FF] py-4 px-6 rounded w-[210px] text-[#0059B1] text-[18px] font-medium mt-10"><IoMdSearch className="h-[19px] w-[19px]" />Find Property</span></p>
+                <Link to='/allProperty'>
+                    <p ><span className="flex items-center gap-3 bg-[#ECF5FF] py-4 px-6 rounded w-[210px] text-[#0059B1] text-[18px] font-medium mt-10"><IoMdSearch className="h-[19px] w-[19px]" />Find Property</span></p>
+                </Link>
             </div>
         </div>
     );

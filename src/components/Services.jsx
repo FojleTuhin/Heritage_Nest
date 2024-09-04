@@ -7,7 +7,7 @@ const Services = () => {
                 <p className="font-bold text-[40px] text-[#181818] text-center">Other Services</p>
 
                 <div className="flex lg:justify-between mt-20 flex-wrap justify-center gap-5">
-                    <div className="w-[384px] h-[200px] bg-[#ECF5FF] p-6 flex gap-5">
+                    <div className="w-[384px] h-[200px] bg-[#ECF5FF] p-6 flex gap-5 rounded">
                         <div>
                             <div className="w-12 h-12 bg-[#EE6611] rounded flex items-center justify-center"><RiHomeSmile2Line className="text-[25px] text-white" /></div>
 
@@ -19,7 +19,7 @@ const Services = () => {
                         </div>
 
                     </div>
-                    <div className="w-[384px] h-[200px] bg-[#ECF5FF] p-6 flex gap-5">
+                    <div className="w-[384px] h-[200px] bg-[#ECF5FF] p-6 flex gap-5 rounded">
                         <div>
                             <div className="w-12 h-12 bg-[#EE6611] rounded flex items-center justify-center"><RiHomeSmile2Line className="text-[25px] text-white" /></div>
 
@@ -31,7 +31,7 @@ const Services = () => {
                         </div>
 
                     </div>
-                    <div className="w-[384px] h-[200px] bg-[#ECF5FF] p-6 flex gap-5">
+                    <div className="w-[384px] h-[200px] bg-[#ECF5FF] p-6 flex gap-5 rounded">
                         <div>
                             <div className="w-12 h-12 bg-[#EE6611] rounded flex items-center justify-center"><RiHomeSmile2Line className="text-[25px] text-white" /></div>
 

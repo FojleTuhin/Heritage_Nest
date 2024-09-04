@@ -6,6 +6,7 @@ import Home from './home/Home';
 import Root from './Root';
 import FindProperty from './findProperty/FindProperty';
 import AllProperty from './allProperty/AllProperty';
+import PropertyDetails from './propertyDetails/PropertyDetails';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
     {
       path:'/allProperty',
       element:<AllProperty></AllProperty>
+    },
+    {
+      path:'/propertyDetails',
+      element:<PropertyDetails></PropertyDetails>
     }
     ]
   },

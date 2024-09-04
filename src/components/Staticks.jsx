@@ -1,4 +1,5 @@
 import { FaRegArrowAltCircleDown } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Staticks = () => {
     return (
@@ -9,7 +10,7 @@ const Staticks = () => {
                     <p className="text-[#1F2937]">New Flat Listed</p>
                 </div>
                 <div className="flex justify-between">
-                    <a href="#" className="text-[#EE6611] underline">View all</a>
+                    <Link to='/allProperty'><a className="text-[#EE6611] underline">View all</a></Link>
 
                     {/* <i
                         className="fa-solid fa-arrow-down rounded-full ring-1 ring-[#EE6611] h-8 w-8 flex justify-center items-center text-[#EE6611]"></i> */}
@@ -26,7 +27,8 @@ const Staticks = () => {
                     <p className="text-[#1F2937] mt-14">New Flat Listed</p>
                 </div>
                 <div className="flex justify-between">
-                    <a href="#" className="text-[#0059B1] underline">View all</a>
+
+                    <Link to='/allProperty'><a className="text-[#0059B1] underline">View all</a></Link>
 
                     {/* <i
                         className="fa-solid fa-arrow-down rounded-full ring-1 ring-[#EE6611] h-8 w-8 flex justify-center items-center text-[#EE6611]"></i> */}
@@ -43,7 +45,7 @@ const Staticks = () => {
                     <p className="text-[#1F2937]">New Flat Listed</p>
                 </div>
                 <div className="flex justify-between">
-                    <a href="#" className="text-[#EE6611] underline">View all</a>
+                    <Link to='/allProperty'><a className="text-[#EE6611] underline">View all</a></Link>
 
                     {/* <i
                         className="fa-solid fa-arrow-down rounded-full ring-1 ring-[#EE6611] h-8 w-8 flex justify-center items-center text-[#EE6611]"></i> */}
@@ -57,7 +59,7 @@ const Staticks = () => {
                     <p className="text-[#1F2937]">New Flat Listed</p>
                 </div>
                 <div className="flex justify-between">
-                    <a href="#" className="text-[#0059B1] underline">View all</a>
+                <Link to='/allProperty'><a className="text-[#0059B1] underline">View all</a></Link>
 
                     {/* <i
                         className="fa-solid fa-arrow-down rounded-full ring-1 ring-[#EE6611] h-8 w-8 flex justify-center items-center text-[#EE6611]"></i> */}
@@ -66,7 +68,7 @@ const Staticks = () => {
                 </div>
             </div>
 
-            
+
         </div>
     );
 };
