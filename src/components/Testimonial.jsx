@@ -4,7 +4,7 @@ const Testimonial = () => {
         <div className="max-w-7xl px-8 mx-auto mt-20">
 
             <div className="flex flex-col gap-[35px] text-center">
-                <h3 className="text-[#181818] text-[40px] font-bold text-center pb-16">Testimonials</h3>
+                <h3 className="text-[#181818] text-[40px] font-bold text-center pb-8">Testimonials</h3>
                 <div className="flex gap-8">
 
                     <div className="bg-[#ECF5FF] py-8 w-[592px] h-[364px] p-8">

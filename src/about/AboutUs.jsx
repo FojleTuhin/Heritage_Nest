@@ -1,4 +1,5 @@
 import Staticks from "../components/Staticks";
+import Testimonial from "../components/Testimonial";
 
 const AboutUs = () => {
     return (
@@ -47,7 +48,7 @@ const AboutUs = () => {
 
 
                 <div className="absolute bottom-0 left-8">
-                    <div className="w-[592px] h-[294px] p-8 flex flex-col gap-6 bg-[#ECF5FF]">
+                    <div className="w-[592px] h-[294px] p-8 flex flex-col gap-6 bg-[#FDF0E7]">
                         <div className="h-[134px]">
                             <div className="flex gap-5 items-center">
                                 <hr className="w-[51px] h-1 bg-[#F06711]" />
@@ -117,6 +118,11 @@ const AboutUs = () => {
                     </div>
                 </div>
 
+            </div>
+
+
+            <div>
+                <Testimonial></Testimonial>
             </div>
 
         </div>
