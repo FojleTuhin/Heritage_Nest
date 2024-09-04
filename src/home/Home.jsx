@@ -8,7 +8,9 @@ const Home = () => {
             
             <Hero_Banner></Hero_Banner>
             <Property></Property>
+            <div className="px-8">
             <Services></Services>
+            </div>
 
             
         </div>
